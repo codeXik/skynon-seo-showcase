@@ -11,6 +11,14 @@ Internal SEO panel of Skynon Labs. Type an address; the panel crawls the page, r
 | ![Score card and PageSpeed](images/screenshot-1.webp) | ![Issues by priority](images/screenshot-2.webp) |
 | ![Recommendations](images/screenshot-3.webp) | ![What is good, crawled pages](images/screenshot-4.webp) |
 
+## Result
+
+On kovania.com the panel found missing rich-result fields, thin pages and on-page issues; after the fixes the site-wide SEO score went from **78 to 93**, with mobile PageSpeed performance at 100.
+
+## Built on
+
+Page collection builds on an open-source SEO audit toolkit (MIT) that was installed and then extended. The panel itself, the exact checks, the scoring, the report pipeline and model choice, the weekly runs, the budget cap and the Markdown export are Skynon's own work.
+
 ## What it checks
 
 - **On-page:** title and description length, H1 count, canonical, noindex, Open Graph and the real pixel size of the share image, Twitter card.
