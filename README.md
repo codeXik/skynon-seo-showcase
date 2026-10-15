@@ -23,6 +23,14 @@ On kovania.com the panel found missing rich-result fields, thin pages and on-pag
 
 On-page SEO 74 → 100, schema 65 → 84, social sharing 72 → 100, mobile performance 98 → 100.
 
+## Cost tracking
+
+Every run records the model, tokens used and its cost; a monthly bar shows AI spending against the budget, next to the list of weekly-monitored sites. A typical analysis costs about $0.11–0.17.
+
+![Run line: status, date, model, tokens, cost](images/cost-run.webp)
+
+![Monthly AI spending bar and weekly-monitored sites](images/cost-budget.webp)
+
 ## Built on
 
 Page collection builds on an open-source SEO audit toolkit (MIT) that was installed and then extended. The panel itself, the exact checks, the scoring, the report pipeline and model choice, the weekly runs, the budget cap and the Markdown export are Skynon's own work.
@@ -48,7 +56,7 @@ flowchart LR
 
 - Python service behind a password-protected reverse proxy; analysis history in SQLite.
 - Measurable things are decided by code, not by the model; the model only explains and prioritises the findings.
-- Monthly spending cap: when the budget is reached the panel keeps collecting data but stops calling the model.
+- Cost per analysis tracked (model, tokens, $); monthly spending cap: when the budget is reached the panel keeps collecting data but stops calling the model.
 - Score card coloured by grade (Weak, Fair, Good, Very good), PageSpeed metrics as bars, live progress screen showing the real analysis stages, report export as Markdown.
 - Command-line entry point so the same analysis can be run from scripts.
 

@@ -4,6 +4,8 @@ Skynon Labs'ın iç SEO paneli. Bir adres yazılır; panel sayfayı tarar, ölç
 
 **Sonuç:** kovania.com'da panelin bulduğu eksikler düzeltildikten sonra site geneli SEO puanı **78'den 93'e** çıktı; mobil PageSpeed performansı 100. skynonlabs.com'da aynı döngüyle puan 79'dan 88'e çıktı. Kovania'da sayfa içi SEO 74 → 100, schema 65 → 84, sosyal paylaşım 72 → 100 oldu.
 
+**Maliyet takibi:** Her analizde model, harcanan token ve maliyet kaydedilir; aylık harcama çubuğu bütçeye göre ne kadar harcandığını gösterir. Bir analiz yaklaşık 0,11–0,17 $ tutar.
+
 **Temel:** Sayfa toplama kısmı, kurulup üzerine geliştirilen açık kaynak (MIT) bir SEO denetim araç setine dayanır. Panel, kesin ölçümlü kontroller, puanlama, rapor akışı ve model seçimi, haftalık analiz, bütçe sınırı ve Markdown dışa aktarma Skynon'un kendi işidir.
 
 Neler denetlendiği ve mimari: [README.md](README.md)
