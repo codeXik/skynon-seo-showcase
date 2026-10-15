@@ -17,6 +17,12 @@ On kovania.com the panel found missing rich-result fields, thin pages and on-pag
 
 ![Recent analyses: scores rising between runs](images/screenshot-0.webp)
 
+| Before (78) | After (93) |
+|---|---|
+| ![kovania.com before the fixes](images/kovania-before.webp) | ![kovania.com after the fixes](images/kovania-after.webp) |
+
+On-page SEO 74 → 100, schema 65 → 84, social sharing 72 → 100, mobile performance 98 → 100.
+
 ## Built on
 
 Page collection builds on an open-source SEO audit toolkit (MIT) that was installed and then extended. The panel itself, the exact checks, the scoring, the report pipeline and model choice, the weekly runs, the budget cap and the Markdown export are Skynon's own work.
