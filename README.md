@@ -13,7 +13,9 @@ Internal SEO panel of Skynon Labs. Type an address; the panel crawls the page, r
 
 ## Result
 
-On kovania.com the panel found missing rich-result fields, thin pages and on-page issues; after the fixes the site-wide SEO score went from **78 to 93**, with mobile PageSpeed performance at 100.
+On kovania.com the panel found missing rich-result fields, thin pages and on-page issues; after the fixes the site-wide SEO score went from **78 to 93**, with mobile PageSpeed performance at 100. On skynonlabs.com the same loop took the score from 79 to 88.
+
+![Recent analyses: scores rising between runs](images/screenshot-0.webp)
 
 ## Built on
 
